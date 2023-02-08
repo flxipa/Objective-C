@@ -1,27 +1,24 @@
 //
 //  Rectangle.h
-//  beta
+//  dev23
 //
-//  Created by MacBook on 11/08/2022.
+//  Created by MacBook on 2/8/23.
 //
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface Rectangle : NSObject
-
 {
     int weight;
     int height;
 }
+-(void)setWeight:(int)w;
+-(void)setHeight:(int)h;
 
-- (void) setWeight:(int)w;
-- (void) setHeight:(int)h;
-
--(int) giveMeArea;
--(int) giveMePerimeter;
-
+-(int)giveMeArea;
+-(int)giveMePerimeter;
 @end
 
-NS_ASSUME_NONNULL_END
+

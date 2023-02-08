@@ -1,32 +1,33 @@
 //
 //  Person.m
-//  on day
+//  dev23
 //
-//  Created by MacBook on 11/08/2022.
+//  Created by MacBook on 2/8/23.
 //
 
 #import "Person.h"
 
 @implementation Person
-- (void) setPersonName:(NSString *)name
+
+-(void)setpersonName:(NSString *)name;
 {
     personname = name;
 }
-- (void) setPersonAge:(int)age
+-(void)setpresonAge:(int)age;
 {
     personage = age;
 }
-- (void) setPersonWeight:(int)weight
+-(void)setpersonWeight:(int)weight;
 {
     personweight = weight;
 }
-- (void) setPersonHeight:(int)height
+-(void)setpersonHeight:(int)height;
 {
     personheight = height;
 }
-- (void) printPerson
+-(void)printstuts;
 {
-    NSLog(@"\n Person Name: %@ \n Person Age: %i \n Person Weight: %i KG \nPerson Height: %i CM", personname, personage, personweight, personheight);
+    NSLog(@"\n person Name: %@ \n person Age: %i \n person Weight: %i KG\n person Height: %i CM", personname, personage, personweight, personheight);
 }
 
 @end

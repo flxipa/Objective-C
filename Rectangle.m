@@ -1,28 +1,30 @@
 //
 //  Rectangle.m
-//  beta
+//  dev23
 //
-//  Created by MacBook on 11/08/2022.
+//  Created by MacBook on 2/8/23.
 //
 
 #import "Rectangle.h"
 
 @implementation Rectangle
 
-- (void) setWeight:(int)w
+-(void)setWeight:(int)w;
 {
     weight = w;
 }
-- (void) setHeight:(int)h
+-(void)setHeight:(int)h;
 {
     height = h;
 }
--(int) giveMeArea
+
+-(int)giveMeArea;
 {
     return height * weight;
 }
--(int) giveMePerimeter
+-(int)giveMePerimeter;
 {
     return (height + weight) * 2;
 }
+
 @end
